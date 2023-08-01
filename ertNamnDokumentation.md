@@ -13,11 +13,9 @@ Jag har utvecklat flera klasser för att skapa funktionalitet för Todo App:
 
 1. "Todo": Denna klass hanterar enskilda uppgifter. Den har funktioner för att lägga till uppgifter, markera dem som klara och ta bort dem från listan.
 
-2. "Database": Den här klassen ansvarar för anslutning till databasen och kommunicerar med MongoDB för att lagra och hämta uppgifter.
+2. "MongoDB": Den här klassen ansvarar för anslutning till databasen och kommunicerar med MongoDB för att lagra och hämta uppgifter.
 
-3. "Menu": En enkel menyklass som visar användaren olika alternativ för att interagera med Todo App.
-
-4. "UserInput": En hjälpklass som hanterar inmatning från användaren och säkerställer att den är giltig.
+3. "Meny": En enkel menyklass som visar användaren olika alternativ för att interagera med Todo App.
 
 ## Planering, Lösningsförslag innan uppgiften påbörjas
 Innan jag började koda, planerade jag mitt arbete steg för steg. Först skapade jag de grundläggande klasserna för att hantera uppgifter och databasinteraktion. Sedan fokuserade jag på att implementera testerna för att kontrollera funktionaliteten. Detta hjälpte mig att ha en klar riktning och undvika överdriven komplexitet.
@@ -25,10 +23,10 @@ Innan jag började koda, planerade jag mitt arbete steg för steg. Först skapad
 
 
 ## Arbetet och dess genomförande
-Jag inledde projektet med att skapa "Todo"-klassen och "Database"-klassen. Sedan implementerade jag funktionaliteten för att lägga till och ta bort uppgifter i "Todo"-klassen. Efter det, fokuserade jag på att ansluta "Database"-klassen till MongoDB för att säkerställa att uppgifterna sparas på ett säkert sätt. Jag skapade också testfall för att verifiera att all funktionalitet fungerade korrekt.
+Jag inledde projektet med att skapa "Todo"-klassen och "MongoDB"-klassen. Sedan implementerade jag funktionaliteten för att lägga till och ta bort uppgifter i "Todo"-klassen. Efter det, fokuserade jag på att ansluta "MongoDB"-klassen till MongoDB för att säkerställa att uppgifterna sparas på ett säkert sätt. Jag skapade också testfall för att verifiera att all funktionalitet fungerade korrekt.
 
 ### Vad som varit svårt, lösningar
-En utmaning jag mötte var att hantera inmatning från användaren på ett pålitligt sätt. Jag använde "UserInput"-klassen för att hantera detta genom att validera och säkerställa att endast giltiga uppgifter läggs till eller tas bort från listan.
+Jag hade önskat att ehhh ha typ en eehhh bättre struktur över mina klasser ocheventuellt delat upp det i mindre klasser så att tydligheten blivit bättre.
 
 
 ## Reflektion & Slutsatser
