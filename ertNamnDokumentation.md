@@ -26,7 +26,8 @@ Innan jag började koda, planerade jag mitt arbete steg för steg. Först skapad
 Jag inledde projektet med att skapa "Todo"-klassen och "MongoDB"-klassen. Sedan implementerade jag funktionaliteten för att lägga till och ta bort uppgifter i "Todo"-klassen. Efter det, fokuserade jag på att ansluta "MongoDB"-klassen till MongoDB för att säkerställa att uppgifterna sparas på ett säkert sätt. Jag skapade också testfall för att verifiera att all funktionalitet fungerade korrekt.
 
 ### Vad som varit svårt, lösningar
-Jag hade önskat att ehhh ha typ en eehhh bättre struktur över mina klasser ocheventuellt delat upp det i mindre klasser så att tydligheten blivit bättre.
+Jag hade önskat att ehhh ha typ en eehhh bättre struktur över mina klasser ocheventuellt delat upp det i mindre klasser så att tydligheten blivit bättre. Exempel på detta;
+en klass som skulle enbart ha hanterat användarens input samt validerat dessa.
 
 
 ## Reflektion & Slutsatser
